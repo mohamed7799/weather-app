@@ -1,0 +1,77 @@
+//reset
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+//general styles
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  background-color: #252222;
+  min-height: 100vh;
+  font-family: "Klee One", cursive;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  color: white;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  background-color: #0000005e;
+  padding: 0.8rem;
+}
+
+main {
+  margin: auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #000000c7;
+  color: white;
+  letter-spacing: 1px;
+  width: 90%;
+  max-width: 450px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  gap: 1.2rem;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+input {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 0.7rem 0rem;
+}
+
+.clouds {
+  display: flex;
+  align-items: center;
+  & img {
+    width: 15%;
+  }
+}
